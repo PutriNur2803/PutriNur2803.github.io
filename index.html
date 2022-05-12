@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Website Portofolio</title>
+    <style>
+        body{
+            background-color: rgb(38, 41, 63);
+            color: white;
+        }
+
+        .home-img{
+            width: 300px;
+            position: relative;
+            z-index: 999;
+            border-radius: 120px 120px 120px 120px;
+            fill: #FFC107;
+        }
+
+        .home-img img{
+            width: 250px;
+        }
+
+        .home-judul{
+            position: relative;
+            top: -100px;
+        }
+
+        footer .media-sosial a:hover{
+            transform: translateY(-5px);
+        }
+
+        footer .foot-link a:hover{
+            color: white !important;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">PutriNur</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="mt-3 m-auto home-img">
+          <?xml version="1.0" standalone="no"?>
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <mask id="mask0" mask-type="alpha">
+                      <path
+                          d="M43.1,-53.7C56.7,-40,69.2,-27.2,76.2,-10.1C83.2,7,84.7,28.4,75.1,41.6C65.4,54.8,44.5,59.8,26.9,60.4C9.3,61,-5,57.1,-20.7,53C-36.3,48.9,-53.2,44.7,-65.2,33.2C-77.1,21.7,-84.1,2.8,-81,-14.2C-77.9,-31.3,-64.8,-46.5,-49.7,-59.9C-34.5,-73.3,-17.2,-85,-1.2,-83.5C14.7,-82,29.5,-67.4,43.1,-53.7Z"
+                          transform="translate(100 100)" />
+                  </mask>
+                  <g mask="url(#mask0)">
+                      <path
+                          d="M43.1,-53.7C56.7,-40,69.2,-27.2,76.2,-10.1C83.2,7,84.7,28.4,75.1,41.6C65.4,54.8,44.5,59.8,26.9,60.4C9.3,61,-5,57.1,-20.7,53C-36.3,48.9,-53.2,44.7,-65.2,33.2C-77.1,21.7,-84.1,2.8,-81,-14.2C-77.9,-31.3,-64.8,-46.5,-49.7,-59.9C-34.5,-73.3,-17.2,-85,-1.2,-83.5C14.7,-82,29.5,-67.4,43.1,-53.7Z"
+                          transform="translate(100 100)" />
+                      <image class="home-blob-img" width="165px" x='17' y='-70' xlink:href="poto.png" />
+                  </g>
+              </svg>
+      </div>
+      <div class="p-5 bg-light bg-opacity-10 text-white home-judul mx-5 rounded-3">
+        <div class="container text-center">
+          <h1 class="display-5 fw-bold home-name">Putri Nur Ali Sahlum</h1>
+          <p class="col-md-12 fs-4 home-title"></p>
+          <button class="btn btn-warning btn-lg" type="button">Next</button>
+        </div>
+      </div>
+
+      <section class="about-me text-center py-3 mb-5" id="about">
+          <h2 class="text-decoration-underline">About Me</h2>
+          <p class="w-50 m-auto my-4">
+              Hallo namaku Putri Nur Ali Sahlum,biasa di panggil Putri Nur. Dengan nim 210441100108 dari prodi Ssitem Informasi Fakultas Teknik asal Bangkalan. hal teristemewa adalah aku menyukai hewan kerbau atau biasa di panggil keboo
+      </section>
+
+      <section class="project p-5 bg-opacity-10 bg-light" id="project">
+        <div class="container">
+            <h2 class="text-decoration-underline text-center">Project Saya</h2>
+            <div class="row gap-3 justify-content-center">
+                <div class="card mt-5 bg-light bg-opacity-25 col-md-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" style="width: 18rem;">
+                    <img src="mean.png" class="card-img-top mt-2" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-text">Website Hitung Mean, Modus, Max & Min</h5>
+                    </div>
+                </div>
+                <div class="card mt-5 bg-light bg-opacity-25 col-md-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" style="width: 18rem;">
+                    <img src="S1.png" class="card-img-top mt-2" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-text">Website Artikel</h5>
+                    </div>
+                </div>
+                <div class="card mt-5 bg-light bg-opacity-25 col-md-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" style="width: 18rem;">
+                    <img src="spp.png" class="card-img-top mt-2" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-text">Website Pembayaran SPP</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="contact-me p-5 my-3" id="contact">
+          <div class="container w-75">
+            <h2 class="text-decoration-underline text-center mb-5">Contact Saya</h2>
+            <div class="row">
+                <div class="col-md-5">
+                    <label for="nama" class="form-label mt-2">Nama</label>
+                    <input class="form-control form-control-lg" type="text" placeholder="Nama Lengkap" id="nama">
+                    <label for="email" class="form-label mt-2">Email</label>
+                    <input class="form-control form-control-lg" type="email" placeholder="Email" id="email">
+                </div>
+                <div class="col-md-7">
+                    <label for="exampleFormControlTextarea1" class="form-label mt-2">Ketik Pesan</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    <button type="button" class="btn btn-warning btn-lg mt-5">Kirim Pesan</button>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <footer class="bg-light bg-opacity-10 p-5 text-center">
+        <h3 class="mb-4">PutriNur</h3>
+        <div class="media-sosial d-flex justify-content-center gap-3">
+            <a href="#" class="bg-light text-white bg-opacity-10 p-2 rounded-3">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" class="bg-light text-white bg-opacity-10 p-2 rounded-3">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#" class="bg-light text-white bg-opacity-10 p-2 rounded-3">
+                <i class="bi bi-tiktok"></i>
+            </a>
+        </div>
+        <div class="foot-link d-flex justify-content-center gap-3 mt-4">
+            <a href="#home" class="text-white-50">home</a>
+            <a href="#about" class="text-white-50">about</a>
+            <a href="#project" class="text-white-50">project</a>
+            <a href="#contact" class="text-white-50">contact</a>
+        </div>
+        <p class="text-white-50 mt-4">Copyright &copy; 2022 PutriNur</p>
+      </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- ========================  AOS JAVASCRIPT  ======================== -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- ========================  GSAP  ======================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+
+    <!-- ========================  JAVASCRIPT  ======================== -->
+    <script src="script.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
